@@ -219,6 +219,10 @@ main {
 
 }
 
+.traval-main-section {
+    width: 1295px;
+}
+
 .travel-gellary-title {
     color: #131318;
     text-align: center;
@@ -229,6 +233,8 @@ main {
 
 }
 
+
+
 .travel-gallery-description {
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
@@ -237,4 +243,130 @@ main {
     line-height: 26px;
     text-align: center;
     margin: 20px 383px;
+
+}
+
+.first-images-container {
+    display: flex;
+    grid-template-columns: 2, 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 47px;
+    margin-bottom: -78px;
+
+
+
+}
+
+.second-images-container {
+    display: flex;
+    grid-template-columns: 3, 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    gap: -10px;
+}
+
+.third-images-container {
+    display: flex;
+    grid-template-columns: 2, 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 45px;
+    margin-top: -80px;
+}
+
+.img-1 {
+    background-image: url(Images/Rectangle\ 5.png);
+    width: 573px;
+    height: 300px;
+
+
+}
+
+.img-1 p {
+    padding: calc(25%);
+}
+
+.img-2 {
+    background-image: url(Images/Rectangle\ 8.png);
+    width: 573px;
+    height: 300px;
+
+}
+
+.img-2 p {
+    padding: calc(25%);
+}
+
+.img-3 {
+    background-image: url(Images/Rectangle\ 6.png);
+    width: 374px;
+    height: 286px;
+}
+
+.img-3 p {
+    padding: calc(25%);
+}
+
+.img-4 {
+    background-image: url(Images/Rectangle\ 7.png);
+    width: 474px;
+    height: 286px;
+}
+
+.img-4 p {
+    padding: calc(25%);
+}
+
+.img-5 {
+    background-image: url(Images/Rectangle\ 9.png);
+    width: 274px;
+    height: 286px;
+}
+
+.img-5 p {
+    padding: calc(40%);
+}
+
+.img-6 p {
+    padding: calc(25%);
+}
+
+.img-6 {
+    background-image: url(Images/Rectangle\ 11.png);
+    width: 473px;
+    height: 300px;
+}
+
+.img-6 p {
+    padding: calc(25%);
+}
+
+.img-7 {
+    background-image: url(Images/Rectangle\ 10.png);
+    width: 673px;
+    height: 300px;
+}
+
+.img-7 p {
+    padding: calc(25%);
+}
+
+#box {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.travel-gallery {
+    padding: 10px;
 }
