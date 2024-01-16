@@ -479,6 +479,25 @@ main {
     margin-top: 20px;
 }
 
+/* here our last footer section  */
+.last-footer-section {
+    width: 1436px;
+    height: 400px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: row;
+    padding-inline-start: 50px;
+}
+
+.futer-last-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    padding-left: 996px;
+}
 
 
 /* @mediya screen starts frooooooooom here */
