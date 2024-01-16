@@ -1,0 +1,240 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+/* color section */
+.primary-color {
+    color: #FF5400;
+    ;
+}
+
+.primary-btn {
+    background-color: #FF5400;
+    border-radius: 8px;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    justify-content: center;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.normal-text {
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* header style */
+body {
+    width: 1440px;
+    height: 6940px;
+    box-sizing: border-box;
+    border: 3px solid blue;
+}
+
+main {
+    width: 1440px;
+    height: 6940px;
+}
+
+.footer {
+    width: 1440px;
+    height: 6940px;
+}
+
+.header-section {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header-section li {
+    justify-content: space-between;
+}
+
+/* header style ends */
+/* navigation style */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.items-container {
+    flex-direction: row;
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+
+}
+
+.items-container li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 700px;
+
+
+}
+
+.items-container ul {
+    display: flex;
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+/* input style */
+.input-1 {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: white;
+    border: none;
+}
+
+.travel-banner-inputs {
+    bottom-top: 60px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 24px;
+    padding-bottom: 16px;
+    margin-top: 30px;
+}
+
+/* input styles end */
+/* banner styles */
+.travel-banner {
+    background: linear-gradient(180deg,
+            rgba(19, 19, 24, 0.8) 0%,
+            rgba(19, 19, 24, 0) 100%),
+        url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 1170px;
+    height: 500px;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.338);
+
+}
+
+.travel-banner h1 {
+    color: #FFF;
+
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    padding: 100px 286px 48px
+}
+
+.travel-banner-description {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    display: block;
+    padding: 0px 262px;
+}
+
+.header-travel-banner {}
+
+/* banner section ends here */
+/* our populer tour section */
+.populer-tour-main-container {
+    display: flex;
+    grid-template-columns: 2, 1fr;
+    width: 1170px;
+    height: 500px;
+    margin-top: 100px;
+
+
+}
+
+.populer-tour-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+
+}
+
+.populer-tour-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding: 20px;
+    padding-left: 5px;
+}
+
+.populer-tour-list-iteam {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+.populer-tour-container .primari-btn {
+    padding-left: 20px;
+}
+
+.populer-tour-2nd-container {
+    padding-right: 135px;
+
+}
+
+/* populer section ends here */
+/* main style */
+/* travel gallery title style */
+.travel-gellary-container {
+    width: 1170px;
+
+    text-align: center;
+
+}
+
+.travel-gellary-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+
+}
+
+.travel-gallery-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 20px 383px;
+}
