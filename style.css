@@ -33,16 +33,12 @@
 }
 
 /* header style */
-body {
-    width: 1440px;
-    height: 6940px;
-    box-sizing: border-box;
-    border: 3px solid blue;
-}
+
 
 main {
     width: 1440px;
     height: 6940px;
+    border: 3px solid pink;
 }
 
 .footer {
@@ -66,6 +62,7 @@ main {
 .nav-container {
     display: flex;
     align-items: center;
+    width: ;
 }
 
 .items-container {
@@ -369,4 +366,99 @@ main {
 
 .travel-gallery {
     padding: 10px;
+}
+
+/* why us information section */
+.about-us-container {
+    text-align: center;
+}
+
+.about-us-title {
+    color: #131318;
+
+    text-align: center;
+
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.about-us-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: calc(10%);
+
+}
+
+#about-us-d {
+    padding: 0 312px;
+}
+
+.about-us-information-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 500px;
+    height: 250px;
+    padding: 55px;
+}
+
+.about-us-information-2 {
+    width: 500px;
+    height: 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 55px;
+
+}
+
+.about-us-information-3 {
+    width: 500px;
+    height: 250px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 55px;
+    grid-template-columns: 1, 2fr;
+    margin-top: 20px;
+}
+
+.about-us-all-information {
+    display: flex;
+    grid-template-columns: 2, 1fr;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+/* @mediya screen starts frooooooooom here */
+@media screen and (max-width:576px) {
+    .header-section {
+        flex-direction: column;
+    }
+
+    .items-container {
+        flex-direction: column
+    }
+
+    .header-section li {
+        flex-direction: ;
+    }
+
+
 }
